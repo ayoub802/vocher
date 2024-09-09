@@ -1,0 +1,894 @@
+.conditions-dannulation-et {
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 35px;
+  }
+
+  .condition-de-modification{
+    margin-block: 0px;
+    font-weight: 500;
+    font-size: 25px;
+  }
+  .blank-line,
+  .dans-lhypothse-o,
+  .dans-lhypothse-o1,
+  .dans-lhypothse-o2,
+  .dans-lhypothse-o3  {
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+    color: #08283E;
+  }
+  .dans-lhypothse-o-container {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-17xl);
+    letter-spacing: 0.05em;
+  }
+  .cancellation-policy-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    max-width: 100%;
+  }
+  .informations-pratiques {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+    font-size: 35px;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 0;
+  }
+  .practical-info {
+    width: 1095px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-29xl);
+  }
+  .au-milieu-du,
+  .au-milieu-du1,
+  .blank-line1 {
+    margin: 0;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  .blank-line2 {
+    margin: 0;
+    font-weight: 600;
+  }
+  .blank-line3,
+  .blank-line4 {
+    margin: 0;
+    font-weight: 300;
+  }
+  .au-milieu-du-container {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .location {
+    width: 2036px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-3xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .accs-bus-mtro {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 500;
+    margin-top: 36px;
+  }
+  .blank-line5,
+  .blank-line6 {
+    margin: 0;
+    font-weight: 300;
+  }
+  .accs-bus-container {
+    flex: 1;
+    position: relative;
+    letter-spacing: 0.05em;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .transport {
+    width: 1065px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 5px var(--padding-3xs);
+    box-sizing: border-box;
+    max-width: 100%;
+  }
+  .frame-child
+  .m {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid var(--color-gray);
+    box-sizing: border-box;
+  }
+  .m {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-gray);
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .ellipse-parent {
+    align-self: stretch;
+    position: relative;
+  }
+  .frame-item
+  .rer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid var(--color-gray);
+    box-sizing: border-box;
+  }
+  .rer {
+    margin: 0;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-gray);
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .ellipse-group {
+    align-self: stretch;
+    position: relative;
+    font-size: var(--font-size-13xl);
+  }
+  .frame-inner
+  .b
+   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+    border: 2px solid var(--color-gray);
+    box-sizing: border-box;
+  }
+  .b {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--color-gray);
+    border-radius: 50%;
+    z-index: 1;
+  }
+  .ellipse-container {
+    align-self: stretch;
+    height: 84px;
+    position: relative;
+  }
+  .frame-group {
+    width: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-20xl);
+  }
+  .mtro-6 {
+    margin: 0;
+    font-size: 22px;
+  }
+  .bus-72,
+  .mtro-6-container,
+  .rer-c {
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-size: 22px;
+  }
+  .mtro-6-container {
+    align-self: stretch;
+  }
+  .bus-72,
+  .rer-c {
+    width: 921px;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .bus-72 {
+    width: 730px;
+  }
+  .detailed-directions,
+  .detailed-directions-list,
+  .frame-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .detailed-directions-list {
+    align-self: stretch;
+    flex-direction: column;
+    gap: 75px;
+  }
+  .detailed-directions,
+  .frame-parent {
+    box-sizing: border-box;
+  }
+  .detailed-directions {
+    flex: 1;
+    flex-direction: column;
+    padding: 19px 0 0;
+    min-width: 865px;
+    text-align: left;
+    font-size: var(--font-size-17xl);
+  }
+  .frame-parent {
+    width: 1454px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    padding: 0 0 var(--padding-3xs);
+    text-align: center;
+    font-size: var(--font-size-45xl);
+  }
+  .parking1 {
+    margin: 0;
+    font-size: 35px;
+    color: var(--color-gray);
+    font-weight: 500;
+  }
+  .animaux-non-admis,
+  .blank-line7,
+  .parkings-publics-dans,
+  .rservation-indispensable,
+  .tous-nos-bateaux {
+    margin: 0;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    font-size: 22px;
+    color: #08283E;
+  }
+  .parking-parkings-publics-container {
+    flex: 1;
+    position: relative;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .parking {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 0 7px;
+    box-sizing: border-box;
+    max-width: 100%;
+    color: #000;
+  }
+  .en-cas-durgence {
+    flex: 1;
+    position: relative;
+    font-weight: 500;
+    display: inline-block;
+    max-width: 100%;
+    font-size: 32px;
+    margin-top: 25px;
+  }
+  .practical-info1 {
+    width: 1095px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 0 var(--padding-mid);
+    box-sizing: border-box;
+    max-width: 100%;
+    font-size: var(--font-size-29xl);
+  }
+  .blank-line8,
+  .contactez-directement-le,
+  .les-informations-de {
+    margin: 0;
+    font-size: 24px;
+  }
+  .contactez-directement-le{
+    margin-bottom: 20px;
+  }
+  .contactez-directement-le-container {
+    width: 2036px;
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    display: inline-block;
+    max-width: 100%;
+  }
+  .cancellation-policy-container-parent,
+  .emergency-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    max-width: 100%;
+  }
+  .emergency-info {
+    align-self: stretch;
+    gap: 25px;
+    font-size: var(--font-size-17xl);
+  }
+  .cancellation-policy-container-parent {
+    width: 2112px;
+    gap: 75px;
+  }
+  .cancellation-policy {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    box-sizing: border-box;
+    max-width: 100%;
+    width: 1340px;
+    margin-inline: auto;
+    text-align: left;
+    font-size: var(--font-size-29xl);
+    color: var(--color-gray);
+    font-family: var(--font-outfit);
+  }
+  .title-bg-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 816px;
+    height: 205.3px;
+    z-index: 2;
+  }
+  .avant-le-dpart,
+  .contact {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+    width: 816px;
+    height: 100px;
+    z-index: 3;
+  }
+  .contact {
+    margin: 0;
+    top: 2.8px;
+    font-size: inherit;
+    line-height: 100px;
+    font-weight: 500;
+    font-family: inherit;
+  }
+  .avant-le-dpart {
+    top: 113.8px;
+    font-size: var(--font-size-21xl);
+    font-weight: 300;
+  }
+
+  .footer{
+    margin-top: 50rem;
+  }
+  .address-bg-icon,
+  .footer-top {
+    position: absolute;
+    margin: 0 !important;
+  }
+  .footer-top {
+    height: 213.8px;
+    width: 816px;
+    top: 5.2px;
+    right: 354px;
+    text-align: center;
+  }
+  .address-bg-icon {
+    height: 100%;
+    width: 1453px;
+    top: 0;
+    bottom: 0;
+    left: -177px;
+    max-height: 100%;
+  }
+  .line-div {
+    width: 0;
+    flex: 1;
+    position: relative;
+    border-right: 10px solid var(--color-white);
+    box-sizing: border-box;
+    z-index: 1;
+  }
+  .footer-bottom-inner {
+    height: 107px;
+    width: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 2px 0 0;
+    box-sizing: border-box;
+  }
+  .wwwnavigatiofr {
+    margin: 0;
+    width: 859px;
+    position: relative;
+    font-size: inherit;
+    font-weight: 500;
+    font-family: inherit;
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+    max-width: calc(100% - 58px);
+    z-index: 2;
+  }
+  .footer-bottom {
+    margin: 0 !important;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 64.5px 141px 54px;
+    box-sizing: border-box;
+    gap: 58px;
+    max-width: 100%;
+  }
+  .p,
+  .p1 {
+    margin: 0;
+  }
+  .contact-details {
+    width: 382px;
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .mailnavigatiofr,
+  .wwwnavigatiofr1 {
+    margin: 0;
+  }
+  .mailnavigatiofr-wwwnavigati {
+    width: 382px;
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .email-website {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 100%;
+    flex-shrink: 0;
+    gap: 20px;
+  }
+  .rue-de-magdebourg {
+    margin: 0;
+  }
+  .rue-de-magdebourg-container {
+    width: 963px;
+    height: 102px;
+    position: relative;
+    letter-spacing: 0.05em;
+    font-weight: 300;
+    text-align: center;
+    display: inline-block;
+    flex-shrink: 0;
+    max-width: 100%;
+    z-index: 2;
+  }
+  .phone-web-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    max-width: 60rem;
+  }
+  .computer-14033570-1-icon {
+    position: absolute;
+    top: 117.6px;
+    left: 894px;
+    width: 109px;
+    height: 109px;
+    overflow: hidden;
+    z-index: 2;
+  }
+  .group-icon,
+  .icon {
+    position: absolute;
+    top: 126.5px;
+    left: 275px;
+    width: 109px;
+    height: 113px;
+    z-index: 2;
+  }
+  .icon {
+    top: 248.8px;
+    left: 512px;
+    width: 65px;
+    height: 67.4px;
+    z-index: 3;
+  }
+  .phone-web {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    margin: 0 !important;
+    right: -42rem;
+    bottom: -5rem;
+  }
+  .contact-info,
+  .footer,
+  .verso {
+    position: relative;
+    display: flex;
+    align-items: flex-start;
+    box-sizing: border-box;
+  }
+  .contact-info {
+    width: 1493px;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 120.6px 44px 104px 448px;
+    gap: var(--gap-lgi);
+    max-width: 100%;
+    font-size: var(--font-size-21xl);
+  }
+  .footer,
+  .verso {
+    overflow: hidden;
+  }
+  .footer {
+    align-self: stretch;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 123.4px 0 0;
+    max-width: 100%;
+    text-align: left;
+    font-size: var(--font-size-77xl);
+    color: var(--color-white);
+    font-family: var(--font-outfit);
+  }
+  .verso {
+    width: 100%;
+    background-color: var(--color-white);
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5rem;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+  @media screen and (max-width: 1200px) {
+    .contact-info {
+      padding-left: 224px;
+      padding-right: 22px;
+      box-sizing: border-box;
+    }
+  }
+
+  @media screen and (max-width: 1350px) {
+    .cancellation-policy{
+        width: 90%;
+    }
+
+    
+  }
+  @media screen and (max-width: 1050px) {
+    .frame-parent{
+        flex-wrap: nowrap;
+        gap: 25px;
+    }
+
+    .footer{
+       padding-top: 0;
+       margin-top: 40rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .verso{
+        padding-top: 4rem;
+    }
+    .conditions-dannulation-et,.informations-pratiques, .parking1, .en-cas-durgence{
+        font-size: 30px;
+    }
+    .blank-line, .dans-lhypothse-o, .dans-lhypothse-o1, .dans-lhypothse-o2, .dans-lhypothse-o3,.au-milieu-du, .au-milieu-du1, .blank-line1{
+        font-size: 16px;
+    }
+
+    .animaux-non-admis, .blank-line7, .parkings-publics-dans, .rservation-indispensable, .tous-nos-bateaux,.blank-line8, .contactez-directement-le, .les-informations-de{
+        font-size: 18px;
+    }
+    .emergency-info{
+        gap: 20px;
+    }
+
+    .condition-de-modification{
+        font-size: 20px;
+    }
+
+    .cancellation-policy-container-parent{
+        gap: 50px;
+    }
+
+    .accs-bus-mtro{
+        margin-top: 32px;
+        font-size: 28px;
+    }
+
+    .frame-child .m,
+    .frame-item .rer,
+    .frame-inner .b{
+        height: 3.5rem;
+        width: 3.5rem;
+    }
+
+    .practical-info1{
+        padding-bottom: 0;
+    }
+
+    .m,
+    .b{
+        font-size: 22px;
+    }
+
+    .rer{
+        font-size: 18px;
+    }
+
+    .frame-group{
+        gap: 30px;
+    }
+    .detailed-directions-list{
+        gap: 60px;
+    }
+
+    .detailed-directions{
+        padding-top: 15px;
+    }
+
+    .mtro-6,.bus-72, .rer-c{
+        font-size: 20px;
+    }
+  }
+
+  @media screen and (max-width: 425px) {
+    .conditions-dannulation-et,.accs-bus-mtro, .informations-pratiques, .parking1, .en-cas-durgence,.blank-line, .dans-lhypothse-o, .dans-lhypothse-o1, .dans-lhypothse-o2, .dans-lhypothse-o3, .au-milieu-du, .au-milieu-du1, .blank-line1,.condition-de-modification{
+        text-align: center;
+    }
+    .animaux-non-admis, .blank-line7, .parkings-publics-dans, .rservation-indispensable, .tous-nos-bateaux, .blank-line8, .contactez-directement-le, .les-informations-de{
+        text-align: center;
+    }
+    .frame-parent{
+        gap: 15px;
+    }
+
+    .frame-child .m, .frame-item .rer, .frame-inner .b{
+        height: 3rem;
+        width: 3rem;
+    }
+    .m,
+    .b{
+        font-size: 18px;
+    }
+
+    .frame-group{
+        width: initial;
+    }
+    .rer{
+        font-size: 15px;
+    }
+
+    .mtro-6, .bus-72, .rer-c{
+        font-size: 15px;
+    }
+    .detailed-directions{
+        max-width: 70%;
+        min-width: unset;
+        padding-top: 5px;
+    }
+
+    .detailed-directions-list{
+        gap: 45px;
+    }
+
+    .footer{
+        margin-top: 25rem;
+    }
+  }
+  /* @media screen and (max-width: 1050px) {
+    .conditions-dannulation-et {
+      font-size: var(--font-size-19xl);
+    }
+    .dans-lhypothse-o-container {
+      font-size: var(--font-size-10xl);
+    }
+    .informations-pratiques {
+      font-size: var(--font-size-19xl);
+    }
+    .accs-bus-container,
+    .au-milieu-du-container {
+      font-size: var(--font-size-10xl);
+    }
+    .m {
+      font-size: var(--font-size-32xl);
+    }
+    .rer {
+      font-size: 26px;
+    }
+    .b {
+      font-size: var(--font-size-32xl);
+    }
+    .detailed-directions {
+      min-width: 100%;
+    }
+    .parking-parkings-publics-container {
+      font-size: var(--font-size-10xl);
+    }
+    .en-cas-durgence {
+      font-size: var(--font-size-19xl);
+    }
+    .contactez-directement-le-container {
+      font-size: var(--font-size-10xl);
+    }
+    .contact {
+      font-size: var(--font-size-29xl);
+      line-height: 60px;
+    }
+    .avant-le-dpart {
+      font-size: var(--font-size-13xl);
+    }
+    .wwwnavigatiofr {
+      font-size: var(--font-size-29xl);
+    }
+    .contact-details,
+    .mailnavigatiofr-wwwnavigati {
+      font-size: var(--font-size-13xl);
+    }
+    .email-website {
+      flex-wrap: wrap;
+    }
+    .rue-de-magdebourg-container {
+      font-size: var(--font-size-13xl);
+    }
+    .contact-info {
+      height: auto;
+    }
+  }
+  @media screen and (max-width: 750px) {
+    .cancellation-policy-container {
+      gap: 23px;
+    }
+    .detailed-directions-list {
+      gap: var(--gap-20xl);
+    }
+    .frame-parent {
+      gap: var(--gap-lgi);
+    }
+    .cancellation-policy-container-parent {
+      gap: 37px;
+    }
+    .contact-info {
+      padding-left: 112px;
+      box-sizing: border-box;
+    }
+    .verso {
+      gap: 268px;
+    }
+  }
+  @media screen and (max-width: 450px) {
+    .conditions-dannulation-et {
+      font-size: var(--font-size-10xl);
+    }
+    .dans-lhypothse-o-container {
+      font-size: var(--font-size-3xl);
+    }
+    .informations-pratiques {
+      font-size: var(--font-size-10xl);
+    }
+    .accs-bus-container,
+    .au-milieu-du-container {
+      font-size: var(--font-size-3xl);
+    }
+    .m {
+      font-size: var(--font-size-19xl);
+    }
+    .rer {
+      font-size: 19px;
+    }
+    .b {
+      font-size: var(--font-size-19xl);
+    }
+    .detailed-directions-list {
+      gap: var(--gap-lgi);
+    }
+    .parking-parkings-publics-container {
+      font-size: var(--font-size-3xl);
+    }
+    .en-cas-durgence {
+      font-size: var(--font-size-10xl);
+    }
+    .contactez-directement-le-container {
+      font-size: var(--font-size-3xl);
+    }
+    .cancellation-policy-container-parent {
+      gap: var(--gap-lgi);
+    }
+    .contact {
+      font-size: var(--font-size-10xl);
+      line-height: 40px;
+    }
+    .avant-le-dpart {
+      font-size: var(--font-size-5xl);
+    }
+    .wwwnavigatiofr {
+      font-size: var(--font-size-10xl);
+    }
+    .contact-details,
+    .mailnavigatiofr-wwwnavigati,
+    .rue-de-magdebourg-container {
+      font-size: var(--font-size-5xl);
+    }
+    .contact-info {
+      padding-left: var(--padding-xl);
+      padding-top: 78px;
+      padding-bottom: 68px;
+      box-sizing: border-box;
+    }
+    .footer {
+      padding-top: 80px;
+      box-sizing: border-box;
+    }
+    .verso {
+      gap: 134px;
+    }
+  } */
